@@ -41,5 +41,16 @@ float: right;
 .clearfix::after{
 content:"";
 height: 0;
+line-height: 0;
+display: block;
+visibility: hidden;
+clear:both;
+}
+[class^="icon "]{
+background: url("../images/sprites.png") no-repeati;
+background-size: 200px 200px;
+}
+.m_110{
+margin-left: 10px;
 
 }
