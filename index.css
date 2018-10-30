@@ -1,0 +1,115 @@
+
+.hm_topBar{
+    width: 100%;
+    height: 45px;
+    /* background:url("./images/1.jpg.png")repeat-x; */
+    background-size: 1px 44px;
+    border-bottom: lpx solid rgb(73, 39, 39);
+    position: absolute;
+    }
+    .hm_topBar > [class^="icon "]{
+    position: absolute;
+    top: 0;
+    height: 44px;
+    width: 40px;
+    padding: 12px 10px;
+    background-clip:content－box;
+    background-origin:content－box;
+    }
+    .hm_topBar > icon_back{
+    left: 0;
+    background-position: -20px 0;
+    }
+    .hm_topBar >.icon_menu{
+    right: 0;
+    background-position: -60px 0;
+    }
+    .hm_topBar > form{
+    width:100%;
+    height: 44px;
+    padding: 0 40px;
+    }
+    .hm_topBar > form > input {
+    width:100%;
+    border: lpx solid #d31d1d;
+    border-radius: 4px;
+    height: 30px;
+    margin-top:7px;
+    }
+    .hm_topBar > h3{
+    text-align:center;
+    line-height: 44px;
+    font-weight: normal;
+    }
+    
+
+    .hm_header {
+    position: fixed;
+    left: 0;
+    top: 0;
+    height: 40px;
+    width: 100%;
+    z-index:1000;
+    background-color: #d31d1d;
+    }
+    .hm_header > .hm_header_box{
+    width:100%;
+    max-width:640px;
+    min-width:300px;
+    margin: 0 auto;
+    background:rgba(121, 194, 121, 0);
+    height: 40px;
+    position: relative;
+    }
+    .hm_header >.hm_header_box >.icon_logo{
+    width: 60px;
+    height: 36px;
+    position: absolute;
+    background-position: 0 -103px;
+    top: 4px;
+    left: 10px;
+    }
+    .hm_header >.hm_header_box >.icon_logo img{
+width: 62px;
+height: 30px;
+    }
+    .hm_header >.hm_header_box >.login {
+    width: 50px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    color: rgb(172, 80, 80);
+    position: absolute;
+    right: 0;
+    top: 0;
+    font-size: 15px;
+    }
+    
+    .hm_header >.hm_header_box > form{
+    width: 66%;
+    padding-left: 75px;
+    padding-right: 50px;
+    height: 13px;
+    position: relative;
+    }
+    .hm_header >.hm_header_box >form >input{
+    width: 100%;
+    height: 30px;
+    border-radius: 15px;
+    margin-top: 5px;
+    padding-left: 30px;
+    }
+    .hm_header >.hm_header_box >form > .icon_search{
+        width: 20px;
+        height: 20px;
+        position: absolute;
+        background-position: -60px -109px;
+        top: 10px;
+        left: 85px;
+    }
+   .hm_header >.hm_header_box >form > .icon_search img{
+       width: 20px;
+       height: 20px;
+   }
+
+
