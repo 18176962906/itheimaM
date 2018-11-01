@@ -231,18 +231,3 @@ height: 30px;
 
 
 
-    .new >.en{
-    width: 100%;
-    font-size: 12px;
-    padding: 10px 0;
-    
-}
-
-.new>.en >ul>li{
-    width: 33.3%;
-    text-align: center;
-}
-.new >.en >ul>li img{
-    width: 33.3%;
-
-}
