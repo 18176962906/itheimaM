@@ -174,7 +174,7 @@ height: 30px;
 
     .new{
         margin: 2px 10px;
-        width: 94%;
+        width: 96%;
         float: left;
         border-style:solid;
         border-width:1px;
@@ -182,52 +182,71 @@ height: 30px;
     
 }
     .new >.top_a{
-        float: left;
+        
         height: 32px;
         width: 100%;
         background:#fff;
         margin-top: 10px;
         /* box-shadow: 0 0 1px #e0e0e0; */
-        float: left;
     }
-    .new >.top_a>.top_b{
+    .new >.top_a>.num{
+        height: 32px;
+    }
+
+    .new >.top_a> .num>.top_b{
         float: left;
         width: 32px;
         height: 32px;
         position: relative;
         background-position:0 ;
     }
-    .new >.top_a>.top_b>img{
+    .new >.top_a> .num>.top_b>img{
+        float: left;
         width: 32px;
         height: 32px;
     }
-    .new >.top_a>.top_c{
+    .new >.top_a>.num>.top_c{
         margin: 4px;
         float: left;
         color: rgb(106, 132, 145);
     }
-    .new >.top_a>.top_d{
+    .new >.top_a>.num>.top_d{
         margin: 4px;
         float: left;
 
     }
-    .new >.top_a>.top_d >span{
+    .new >.top_a>.num>.top_d >span{
         margin: 0 1px;
         background-color: black;
         color: #fff;
     }
-    .new >.top_a>.top_d >.x{
+    .new >.top_a>.num>.top_d >.x{
         background-color: rgb(255, 255, 255);
         color: rgb(0, 0, 0);
     }
-    .new >.top_a>.top_e{
+    .new >.top_a>.num>.top_e{
         position: relative;
         left: 55px; 
     }
-    .new >.top_a>.top_e a{
+    .new >.top_a>.num>.top_e a{
          text-decoration: none;
     }
 
 
+.new>.top_a>.en{
+    width: 100%;
 
+}
+.new>.top_a>.en >ul {
+    width: 100%;
+}
+.new>.top_a>.en >ul .on{
+    margin: 5px;
+    width: 30%;
+    float: left;
+}
 
+.new>.top_a>.en >ul>.on >a >img{
+    width:100%;
+    
+}
