@@ -2,6 +2,11 @@
 *,
 ::before,
 ::after{
+        text-align: center;
+        /* line-height: 44px; */
+        font-weight: normal;
+ 
+        
 
     margin: 0;
     padding: 0;
@@ -47,7 +52,7 @@ visibility: hidden;
 clear:both;
 }
 [class^="icon "]{
-background: url("../images/sprites.png") no-repeati;
+background: url("./images/52.png") no-repeati;
 background-size: 200px 200px;
 }
 .m_110{
@@ -63,7 +68,6 @@ margin-bottom: l0px;
 margin-top: 10px;
 }
 
-    
 
 
 
